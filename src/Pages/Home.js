@@ -8,7 +8,7 @@ import MySkill from '../Component/MySkill';
 import Projects from '../Component/Projects';
 import ContactMe from '../Component/ContactMe';
 import Footer from '../Component/Footer';
-import WOW from 'wowjs';
+
 
 
 function Home() {

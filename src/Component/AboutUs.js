@@ -6,15 +6,16 @@ import resume from "../pdf/resume-shivani-rathore.pdf"
 function AboutUs() {
     return (
         <div>
-            <section className="bg-[#122E43] py-[90px]" id='about'>
+            <section className="bg-[#122E43] lg:py-[90px] py-[50px]" id='about'>
                 <div className='container max-w-6xl mx-auto xl:px-16 px-8'>
-                    <div className='flex gap-[90px] items-center'>
-                        <div className='w-1/2'>
-                             <img src="images/my-img1.jpg" alt="" className=' flex justify-center border-[#0488CC] border-l-8 border-b-8 size-[400px]' data-aos="zoom-in" />
+                    <div className='flex flex-col md:flex-row items-center justify-center lg:gap-[90px] gap-[30px]'>
+                        <div className='md:w-1/2 w-full md:order-first order-last'>
+                        <div className='flex md:!justify-start justify-center'>
+                             <img src="images/my-img.png" alt="" className=' flex justify-center border-[#0488CC] border-l-8 border-b-8 md:h-[400px] h-full' data-aos="zoom-in" />
                         </div>
-                        <div className='w-1/2'>
-                        <div className="max-w-lg">
-                            <h2 className="text-4xl font-bold mb-4 text-left text-white" data-aos="flip-left">
+                        </div>
+                        <div className='md:w-1/2 w-full'>                        
+                            <h2 className="md:text-4xl text-3xl font-bold mb-4 md:text-left text-center text-white" data-aos="flip-left">
                                 About <span className="text-blue-400">Me</span>
                             </h2>
                             <p className="text-sm leading-relaxed text-gray-300 text-left" data-aos="fade-left">
@@ -23,29 +24,28 @@ function AboutUs() {
                                  My design approach is clean, functional, and user-centered. I love transforming ideas into pixel-perfect web experiences that not only look great but also perform efficiently across all devices.
                             </p>
 
-                            <div className="mt-6 space-y-2 text-sm text-left text-gray-300 animate__animated animate__fadeInUp">
-                                <p>
+                            <div className="mt-6 space-y-2 text-sm text-left text-gray-300 animate__animated animate__fadeInUp md:pl-0 ">
+                                <p className='flex text-sm'>
                                     <strong className='text-[#0488CC] w-[81px] inline-block'>Name:</strong> Shivani
                                 </p>
-                                <p>
-                                    <strong className='text-[#0488CC] w-[81px] inline-block'>Email:</strong> shivani.rathore039@gmail.com
+                                 <p className='flex text-sm'>
+                                    <strong className='text-[#0488CC] w-[81px] inline-block'>Email:</strong> shivanirathore093@gmail.com
                                 </p>
-                                <p>
+                                 <p className='flex text-sm'>
                                     <strong className='text-[#0488CC] w-[81px] inline-block'>Contact:</strong> 7222378667
                                 </p>
                             </div>
 
-                            <div className="mt-6 flex gap-4">
-                                <a className="bg-[#0488CC] px-6 py-2 rounded-full text-white text-sm font-bold hover:bg-white hover:text-sky-500">
+                            <div className="mt-6 flex md:gap-4 gap-2">
+                                <a className="bg-[#0488CC] md:px-6 px-4 py-2 rounded-full text-white text-sm font-bold hover:bg-white hover:text-sky-500">
                                     Hire me  
                                 </a>
                                 <a href={resume}
                                 download="resume-shivani-rathore.pdf"
-                                 className="bg-white text-[#0488CC] border border-white px-6 py-2 rounded-full text-sm font-bold hover:bg-sky-500 hover:text-white border-none cursor-pointer">
+                                 className="bg-white text-[#0488CC] border border-white md:px-6 px-4 py-2 rounded-full text-sm font-bold hover:bg-sky-500 hover:text-white border-none cursor-pointer">
                                     Download CV
                                 </a>
                             </div>
-                        </div>
                         </div>
                     </div>
                 </div>

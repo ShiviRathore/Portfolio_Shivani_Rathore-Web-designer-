@@ -37,9 +37,9 @@ function Service() {
     ]
     return (
         <div>
-            <section className="bg-[#122E43] text-white py-[90px]" id='service'>
+            <section className="bg-[#122E43] text-white lg:py-[90px] py-[50px]" id='service'>
                 <div className="container max-w-6xl mx-auto xl:px-16 px-8">
-                    <h2 className="text-center text-4xl font-bold mb-12"  data-aos="flip-left">
+                    <h2 className="text-center md:text-4xl text-3xl font-bold mb-12"  data-aos="flip-left">
                         Ser<span className="text-sky-500">vice</span>
                     </h2>
                     <div className='grid md:grid-cols-3 grid-cols-1 gap-5'>
@@ -48,10 +48,10 @@ function Service() {
                             service.map((value, index) => {
                                 return (
                                     <>
-                                        <div key={{ index }} className='bg-white text-black p-6 rounded-lg shadow hover:shadow-lg transition duration-300  border-4 border-white hover:border-sky-500 hover:border-4'>
+                                        <div key={{ index }} className='bg-white text-black lg:p-6 p-4 rounded-lg shadow hover:shadow-lg transition duration-300  border-4 border-white hover:border-sky-500 hover:border-4'>
                                             <span>{value.icon}</span>
-                                            <h3 className='font-bold'>{value.title}</h3>
-                                            <p className=''>{value.description}</p>
+                                            <h3 className='font-bold lg:text-lg text-base mb-2'>{value.title}</h3>
+                                            <p className='lg:text-base text-sm'>{value.description}</p>
                                         </div>
                                     </>
                                 )
