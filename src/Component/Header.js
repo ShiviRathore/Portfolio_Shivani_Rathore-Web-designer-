@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
+import logo from "../images/shivani-logo.png"
+
 
 function Header() {
   const [isVisible, setIsVisible] = useState(false);
@@ -17,7 +19,7 @@ function Header() {
               <div>
                 <Link to="/" className="flex items-center">
                   <span className="self-center md:text-2xl text-xl font-bold whitespace-nowrap text-white flex items-center">
-                    <img src="images/shivani-logo.png" alt="" className="size-[50px]"/> Shivani Rathore
+                    <img src={logo} alt="" className="size-[50px]"/> Shivani Rathore
                   </span>
                 </Link>
               </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import resume from "../pdf/resume-shivani-rathore.pdf"
-
+import myimg from "../images/my-img.png";
 
 function AboutUs() {
     return (
@@ -11,7 +11,7 @@ function AboutUs() {
                     <div className='flex flex-col md:flex-row items-center justify-center gap-5'>
                         <div className='md:w-1/2 w-full md:order-first order-last'>
                         <div className='flex md:!justify-start justify-center'>
-                             <img src="images/my-img.png" alt="" className=' flex justify-center border-[#0488CC] border-l-8 border-b-8 xs:h-[400px] h-full' data-aos="zoom-in" />
+                             <img src={myimg} alt="" className=' flex justify-center border-[#0488CC] border-l-8 border-b-8 xs:h-[400px] h-full' data-aos="zoom-in" />
                         </div>
                         </div>
                         <div className='md:w-1/2 w-full'>                        

@@ -1,6 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-
+import dashboard from "../images/dashboard.png"
+import frs from "../images/frs.png" ;
+import qbit from "../images/qbit-ai.png";
+import project from "../images/project.png"
 function Projects() {
   return (
     <>
@@ -9,7 +12,7 @@ function Projects() {
           <h4 className='text-white md:mb-12 mb-8 md:text-4xl text-3xl font-bold' data-aos="flip-right">My <span className='text-sky-500'>Projects</span></h4>
             <div className='grid md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-8 md:w-full'>        
               <div className='relative group overflow-hidden border-4 border-[rgb(4,136,204)] rounded-xl p-2 hover:scale-105 transition-transform duration-300'>
-                <img src="images/dashboard.png" alt="" className=' w-full xs:h-[300px] h-[200px] rounded-xl' />
+                <img src={dashboard} alt="" className=' w-full xs:h-[300px] h-[200px] rounded-xl' />
                 <div className="absolute inset-0 bg-[#000000d9] opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-center items-center text-center text-white p-4">
                     <h3 className="text-2xl font-bold mb-2">AIM Project</h3>
                     <p className="text-lg mb-4">React js, Bootstrap</p> 
@@ -17,7 +20,7 @@ function Projects() {
                   </div>
               </div>            
               <div class="relative group overflow-hidden border-4 border-[#0488CC] rounded-xl p-2 hover:scale-105 transition-transform duration-300">
-                  <img src="images/frs.png" alt="" className=' w-full xs:h-[300px] h-[200px] rounded-xl' />
+                  <img src={frs} alt="" className=' w-full xs:h-[300px] h-[200px] rounded-xl' />
                   <div className="absolute inset-0 bg-[#000000d9] opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-center items-center text-center text-white p-4">
                     <h3 className="text-2xl font-bold mb-2">FRS Project</h3>
                     <p className="text-lg mb-4">HTML, Tailwind CSS</p>
@@ -25,7 +28,7 @@ function Projects() {
                   </div>
               </div>
                 <div className='relative group overflow-hidden border-4 border-[#0488CC] rounded-xl p-2 hover:scale-105 transition-transform duration-300'>
-              <img src="images/qbit-ai.png" alt="" className=' w-full xs:h-[300px] h-[200px] rounded-xl' />
+              <img src={qbit} alt="" className=' w-full xs:h-[300px] h-[200px] rounded-xl' />
                 <div className="absolute inset-0 bg-[#000000d9] opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-center items-center text-center text-white p-4">
                     <h3 className="text-2xl font-bold mb-2">QBIT Project</h3>
                     <p className="text-lg mb-4">React js, Tailwind CSS</p> 
@@ -33,7 +36,7 @@ function Projects() {
                   </div>
               </div> 
                 <div className='relative group overflow-hidden border-4 border-[#0488CC] rounded-xl p-2 hover:scale-105 transition-transform duration-300'>
-                <img src="images/project.png" alt="" className=' w-full xs:h-[300px] h-[200px] rounded-xl' />
+                <img src={project} alt="" className=' w-full xs:h-[300px] h-[200px] rounded-xl' />
                 <div className="absolute inset-0 bg-[#000000d9] opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-center items-center text-center text-white p-4">
                     <h3 className="text-2xl font-bold mb-2">TOURYSTA Project</h3>
                     <p className="text-lg mb-4">React js, Bootstrap</p>
