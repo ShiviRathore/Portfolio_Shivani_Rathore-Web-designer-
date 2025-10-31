@@ -17,9 +17,9 @@ function MySkill() {
     ]
     return (
         <div>
-            <div className='bg-[#071C2C] lg:py-[100px] py-[50px]' id='skill'>
+            <div className='bg-[#071C2C] lg:py-[100px] py-[40px]' id='skill'>
                 <div className='container max-w-6xl mx-auto xl:px-16 px-8'>
-                    <h3 className='text-white mb-12  md:text-4xl text-3xl font-bold' data-aos="flip-right">My <span className='text-sky-500'>Skill</span></h3>
+                    <h3 className='text-white md:mb-12 mb-6 md:text-4xl text-3xl font-bold' data-aos="flip-right">My <span className='text-sky-500'>Skill</span></h3>
                     <div className='grid md:grid-cols-2 grid-cols-1 gap-10'>
                         <div className=''>
                             <h4 className='text-white text-xl font-bold mb-5'data-aos="fade-left">Coding Skills</h4>

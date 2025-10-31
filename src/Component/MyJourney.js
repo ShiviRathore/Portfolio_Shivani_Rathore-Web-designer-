@@ -3,15 +3,15 @@ import React from 'react'
 function MyJourney() {
     return (
         <div>
-            <section className="bg-[#081B29] text-white lg:py-[100px] py-[50px]" id='journey'>
+            <section className="bg-[#081B29] text-white lg:py-[100px] py-[30px]" id='journey'>
                 <div className="container max-w-6xl mx-auto xl:px-16 px-8">
-                    <h2 className="text-center md:text-4xl text-3xl font-bold mb-12" data-aos="fade-up">
+                    <h2 className="text-center md:text-4xl text-3xl font-bold md:mb-12 mb-6" data-aos="fade-up">
                         My <span className="text-sky-500">Journey</span>
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                         {/* Education */}
                         <div>
-                            <h3 className="text-2xl font-bold mb-6" data-aos="fade-right">Education</h3>
+                            <h3 className="md:text-2xl text-xl font-bold mb-6" data-aos="fade-right">Education</h3>
                             <div className="relative border-l-2 border-[#0488CC] space-y-8 pl-6" data-aos="fade-right" data-aos-delay="500" >
                                  <div className="relative bg-slate-900 md:p-4 p-2 rounded-lg border-4 border-[#0488CC]">
                                     <span className="absolute -left-[37px] top-4 w-4 h-4 bg-sky-500 rounded-full"></span>
@@ -36,7 +36,7 @@ function MyJourney() {
                         </div>
                         {/* Experience */}
                         <div>
-                            <h3 className="text-2xl font-bold mb-6" data-aos="fade-left">Experience</h3>
+                            <h3 className="md:text-2xl text-xl font-bold mb-6" data-aos="fade-left">Experience</h3>
                             <div className="relative border-l-2  border-[#0488CC] space-y-8 pl-6" data-aos="fade-left" data-aos-delay="500" >
                                 <div className="relative bg-slate-900 md:p- 4 p-2 rounded-lg border-4 border-[#0488CC]">
                                     <span className="absolute -left-[37px] top-4 w-4 h-4 bg-sky-500 rounded-full"></span>

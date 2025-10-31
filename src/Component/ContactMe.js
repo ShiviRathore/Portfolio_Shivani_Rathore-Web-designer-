@@ -8,9 +8,9 @@ import { FaGithub } from "react-icons/fa";
 function ContactMe() {
   return (
     <div>
-      <section id="contact" class="bg-[#0f2537] lg:py-[90px] py-[50px]">
+      <section id="contact" class="bg-[#0f2537] lg:py-[90px] py-[40px]">
         <div class="container max-w-6xl mx-auto xl:px-16 px-8">
-          <h2 class="text-3xl md:text-4xl font-bold text-white text-center md:mb-12 mb-4" data-aos="flip-right">
+          <h2 class="text-3xl md:text-4xl font-bold text-white text-center md:mb-12 mb-6" data-aos="flip-right">
             Contact <span class="text-sky-500">Me</span>
           </h2>
           <div class="grid md:grid-cols-2 lg:gap-10 gap-4">
@@ -29,44 +29,65 @@ function ContactMe() {
                   Submit
                 </button>
               </form>
-              
             </div>
-            <div class="bg-[#102a3b] p-6 rounded-lg shadow-xl text-white">
-              <h3 class="lg:text-3xl text-2xl font-bold mb-6 md:max-w-[50%] w-full mx-auto md:my-6 my-3">Get in <span class="text-sky-500">Touch</span></h3>
-              <ul class="space-y-4 md:max-w-[71%] sm:max-w-[50%] w-full mx-auto pt-6">
-                <li className='text-left'>
-                  <NavLink to="mailto:shivanirathore093@gmail.com" className="hover:text-sky-500 flex justify-start items-center gap-3 md:text-base text-sm">
-                    <FaMessage />
-                    <span className='text-left'> shivanirathore093@gmail.com</span>
+            <div className="bg-[#102a3b] p-6 rounded-lg shadow-xl text-white text-center">
+              <h3 className="lg:text-3xl text-2xl font-bold mb-6">
+                Get in <span className="text-sky-500">Touch</span>
+              </h3>
+
+              <ul className="space-y-4 max-w-[260px] w-full mx-auto text-left">
+                <li>
+                  <NavLink
+                    to="mailto:shivanirathore093@gmail.com"
+                    className="hover:text-sky-500 flex items-center gap-3"
+                  >
+                    <FaMessage className="text-sky-500 text-lg" />
+                    <span className='md:text-base text-sm'>shivanirathore093@gmail.com</span>
                   </NavLink>
                 </li>
-                <li className='text-left'>
-                  <NavLink to="https://www.linkedin.com/in/shivani-rathore-84824020a/" className="hover:text-sky-500 flex justify-start items-center gap-3 md:text-base text-sm">
-                    <FaLinkedin />
-                    <span className='text-left'>linkedin.com/in/shivani-rathore-84824020a</span>
+
+                <li>
+                  <NavLink
+                    to="https://www.linkedin.com/in/shivani-rathore-84824020a/"
+                    className="hover:text-sky-500 flex items-center gap-3"
+                  >
+                    <FaLinkedin className="text-sky-500 text-lg" />
+                    <span className='md:text-base text-sm'>linkedin.com/in/shivani-rathore-84824020a</span>
                   </NavLink>
                 </li>
-                 <li className='text-left'>
-                  <NavLink to="https://github.com/ShiviRathore/" className="hover:text-sky-500 flex justify-start items-center gap-3 md:text-base text-sm">
-                   <FaGithub />
-                    <span className='text-left'>https://github.com/ShiviRathore/</span>
+
+                <li>
+                  <NavLink
+                    to="https://github.com/ShiviRathore/"
+                    className="hover:text-sky-500 flex items-center gap-3"
+                  >
+                    <FaGithub className="text-sky-500 text-lg" />
+                    <span className='md:text-base text-sm'>github.com/ShiviRathore</span>
                   </NavLink>
                 </li>
-                <li className='text-left'>
-                  <NavLink to="tel:+917225856984" className="hover:text-sky-500 flex justify-start items-center gap-3 md:text-base text-sm">
-                    <FaPhoneAlt />
-                    <span className='text-left'>+917225856984</span> 
+
+                <li>
+                  <NavLink
+                    to="tel:+917225856984"
+                    className="hover:text-sky-500 flex items-center gap-3"
+                  >
+                    <FaPhoneAlt className="text-sky-500 text-lg" />
+                    <span className='md:text-base text-sm'>+91 72258 56984</span>
                   </NavLink>
                 </li>
-                <li className='text-left'>
-                   <NavLink to="tel:+917225856984" className="hover:text-sky-500 flex justify-start items-center gap-3 md:text-base text-sm">
-                      <FaMapMarkerAlt /> 
-                      <span className='text-left'>indore, Madhya Pradesh, India</span> 
-                   </NavLink>
-                   
+
+                <li>
+                  <NavLink
+                    to="#"
+                    className="hover:text-sky-500 flex items-center gap-3"
+                  >
+                    <FaMapMarkerAlt className="text-sky-500 text-lg" />
+                    <span className='md:text-base text-sm'>Indore, Madhya Pradesh, India</span>
+                  </NavLink>
                 </li>
               </ul>
             </div>
+
           </div>
         </div>
       </section>

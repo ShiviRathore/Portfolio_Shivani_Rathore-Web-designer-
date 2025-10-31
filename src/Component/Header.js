@@ -16,8 +16,8 @@ function Header() {
             <div className="flex justify-between">
               <div>
                 <Link to="/" className="flex items-center">
-                  <span className="self-center text-3xl font-bold whitespace-nowrap text-white">
-                    Portfolio
+                  <span className="self-center md:text-2xl text-xl font-bold whitespace-nowrap text-white flex items-center">
+                    <img src="images/shivani-logo.png" alt="" className="size-[50px]"/> Shivani Rathore
                   </span>
                 </Link>
               </div>
@@ -26,11 +26,11 @@ function Header() {
               className="justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
                   {isVisible ? (    
                   <button className="lg:!hidden flex" onClick={toggleVisibility}>              
-                    <i class="fa-solid fa-xmark text-white right-0 top-0 absolute"></i>
+                    <i class="fa-solid fa-xmark text-white right-0 top-[17px] absolute"></i>
                   </button>  
                    ) : (
                   <button className="lg:!hidden flex" onClick={toggleVisibility}>              
-                    <i class="fa-solid fa-bars text-white right-0 top-0 absolute"></i>
+                    <i class="fa-solid fa-bars text-white right-0 top-[17px] absolute"></i>
                   </button>   
                    )}
                     
@@ -152,7 +152,7 @@ function Header() {
                     >
                       Skill
                     </Link>
-                  </li>
+                  </li> 
                   <li>
                     <Link
                       to="projects"
