@@ -1,16 +1,21 @@
 {
   "files": {
     "main.css": "/Portfolio_Shivani_Rathore-Web-designer-/static/css/main.bd9a9c86.css",
-    "main.js": "/Portfolio_Shivani_Rathore-Web-designer-/static/js/main.be01d563.js",
+    "main.js": "/Portfolio_Shivani_Rathore-Web-designer-/static/js/main.5a41fd74.js",
     "static/js/488.18f72ed7.chunk.js": "/Portfolio_Shivani_Rathore-Web-designer-/static/js/488.18f72ed7.chunk.js",
+    "static/media/dashboard.png": "/Portfolio_Shivani_Rathore-Web-designer-/static/media/dashboard.08cc9bd488ca82156725.png",
+    "static/media/frs.png": "/Portfolio_Shivani_Rathore-Web-designer-/static/media/frs.38f299ea6dda6d0b9f5e.png",
+    "static/media/project.png": "/Portfolio_Shivani_Rathore-Web-designer-/static/media/project.5b0433758434aa74c271.png",
+    "static/media/my-img.png": "/Portfolio_Shivani_Rathore-Web-designer-/static/media/my-img.ebd75fd21c3af3ed17af.png",
+    "static/media/qbit-ai.png": "/Portfolio_Shivani_Rathore-Web-designer-/static/media/qbit-ai.9cefa8dc59cf355cb8da.png",
     "static/media/resume-shivani-rathore.pdf": "/Portfolio_Shivani_Rathore-Web-designer-/static/media/resume-shivani-rathore.060e4898436fd75706a1.pdf",
     "index.html": "/Portfolio_Shivani_Rathore-Web-designer-/index.html",
     "main.bd9a9c86.css.map": "/Portfolio_Shivani_Rathore-Web-designer-/static/css/main.bd9a9c86.css.map",
-    "main.be01d563.js.map": "/Portfolio_Shivani_Rathore-Web-designer-/static/js/main.be01d563.js.map",
+    "main.5a41fd74.js.map": "/Portfolio_Shivani_Rathore-Web-designer-/static/js/main.5a41fd74.js.map",
     "488.18f72ed7.chunk.js.map": "/Portfolio_Shivani_Rathore-Web-designer-/static/js/488.18f72ed7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd9a9c86.css",
-    "static/js/main.be01d563.js"
+    "static/js/main.5a41fd74.js"
   ]
 }
