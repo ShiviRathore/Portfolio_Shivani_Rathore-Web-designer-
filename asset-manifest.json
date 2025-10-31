@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Shivani_Rathore-Web-designer-/static/css/main.bd9a9c86.css",
+    "main.js": "/Portfolio_Shivani_Rathore-Web-designer-/static/js/main.be01d563.js",
+    "static/js/488.18f72ed7.chunk.js": "/Portfolio_Shivani_Rathore-Web-designer-/static/js/488.18f72ed7.chunk.js",
+    "static/media/resume-shivani-rathore.pdf": "/Portfolio_Shivani_Rathore-Web-designer-/static/media/resume-shivani-rathore.060e4898436fd75706a1.pdf",
+    "index.html": "/Portfolio_Shivani_Rathore-Web-designer-/index.html",
+    "main.bd9a9c86.css.map": "/Portfolio_Shivani_Rathore-Web-designer-/static/css/main.bd9a9c86.css.map",
+    "main.be01d563.js.map": "/Portfolio_Shivani_Rathore-Web-designer-/static/js/main.be01d563.js.map",
+    "488.18f72ed7.chunk.js.map": "/Portfolio_Shivani_Rathore-Web-designer-/static/js/488.18f72ed7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd9a9c86.css",
+    "static/js/main.be01d563.js"
+  ]
+}
