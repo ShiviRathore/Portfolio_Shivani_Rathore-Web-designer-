@@ -43,13 +43,11 @@ function Service() {
                         Ser<span className="text-sky-500">vice</span>
                     </h2>
                     <div className='grid md:grid-cols-3 grid-cols-1 gap-5'>
-
                         {
                             service.map((value, index) => {
                                 return (
                                     <>
-                                        <div key={{ index }} className='bg-white text-black lg:p-6 p-4 rounded-lg shadow hover:shadow-lg transition duration-300  border-4 border-white hover:border-sky-500 hover:border-4'>
-                                           
+                                        <div key={{ index }} className='bg-white text-black lg:p-6 p-4 rounded-lg shadow hover:shadow-lg transition duration-300  border-4 border-white hover:border-sky-500 hover:border-4'>                                     
                                             <span>{value.icon}</span>
                                             <h3 className='font-bold lg:text-lg text-base mb-2'>{value.title}</h3>
                                             <p className='lg:text-base text-sm'>{value.description}</p>

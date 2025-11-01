@@ -10,7 +10,7 @@ function Projects() {
       <div className='bg-[#122E43] text-white lg:py-[90px] py-[40px]' id='projects'>
         <div className='container max-w-6xl mx-auto xl:px-16 px-8'>
           <h4 className='text-white md:mb-12 mb-8 md:text-4xl text-3xl font-bold' data-aos="flip-right">My <span className='text-sky-500'>Projects</span></h4>
-            <div className='grid md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-8 md:w-full'>        
+            <div className='grid md:grid-cols-2 sm:grid-cols-1 grid-cols-1 md:gap-8 gap-4 md:w-full sm:w-[80%] mx-auto w-full'>        
               <div className='relative group overflow-hidden border-4 border-[rgb(4,136,204)] rounded-xl p-2 hover:scale-105 transition-transform duration-300'>
                 <img src={dashboard} alt="" className=' w-full xs:h-[300px] h-[200px] rounded-xl' />
                 <div className="absolute inset-0 bg-[#000000d9] opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-center items-center text-center text-white p-4">

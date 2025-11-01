@@ -17,7 +17,8 @@ function Banner() {
                     <div className='flex flex-col md:flex-row items-center justify-center lg:gap-10 gap-4'>
                         <div className="md:w-1/2 w-full">
                             <div className='text-center'>
-                                <h2 className='lg:text-3xl md:text-2xl text-xl font-bold text-white md:text-left text-center mb-3'>I Am <span className='text-[#0488CC] md:text-[36px] sm:text-[30px] text-xl md:ml-3 ml-0' data-aos="zoom-in"> Shivani Rathore</span></h2>
+                                <p className='text-xl text-white md:text-left text-center font-bold mb-4'>HELLO</p>
+                                <h2 className='lg:text-3xl md:text-2xl text-xl font-bold text-white md:text-left text-center mb-3'> I Am <span className='text-[#0488CC] md:text-[36px] sm:text-[30px] text-xl md:ml-3 ml-0' data-aos="zoom-in"> Shivani Rathore</span></h2>
                                 <h1 className="lg:text-[36px] md:text-[28px] text-xl font-bold mb-4 text-white md:text-left " data-aos="fade-up">
                                     <span className='text-[#0488CC] md:text-[30px] text-[22px] md:ml-3 ml-0 font-bold'> Creative </span>
                                     Web Designer
