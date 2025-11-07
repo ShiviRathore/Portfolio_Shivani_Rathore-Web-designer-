@@ -7,8 +7,23 @@ body{
   overflow-x: hidden;
   font-family: "Inter", sans-serif;
 }
-.about-img {
-    transform: rotateY(180deg);
+
+.background-video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
 }
 
-
+.video-overlay {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 

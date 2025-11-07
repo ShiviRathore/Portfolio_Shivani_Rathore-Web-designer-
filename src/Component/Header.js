@@ -11,7 +11,7 @@ function Header() {
   };
  
   return (
-    <div className="bg-[#081B29] fixed w-full top-0 left-0 right-0 z-10">
+    <div className="bg-[#0a1424] fixed w-full top-0 left-0 right-0 z-10">
       <header className="container max-w-6xl mx-auto xl:px-16 px-8">
         <nav className="border-gray-200 py-4">
           <div className="flex flex-wrap justify-between items-center relative">

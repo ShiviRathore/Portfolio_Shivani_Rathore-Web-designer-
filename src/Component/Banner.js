@@ -4,6 +4,7 @@ import AOS from "aos";
 import { NavLink } from 'react-router-dom';
 import { Link } from "react-scroll";
 import myimg from "../images/my-img.png"
+import bgVideo from "../images/video1.mp4";
 
 function Banner() {
     useEffect(() => {
@@ -12,9 +13,9 @@ function Banner() {
 
     return (
         <>
-            <section className='bg-[#081B29] md:pb-[100px] pb-[40px] md:pt-[150px] pt-[90px]' id='home'>
-                <div className="container max-w-6xl mx-auto xl:px-16 px-8">
-                    <div className='flex flex-col md:flex-row items-center justify-center lg:gap-10 gap-4'>
+            <section className=' md:pt-[60px] pt-[60px]' id='home'>
+
+                {/* <div className='flex flex-col md:flex-row items-center justify-center lg:gap-10 gap-4'>
                         <div className="md:w-1/2 w-full">
                             <div className='text-center'>
                                 <p className='text-xl text-white md:text-left text-center font-bold mb-4'>HELLO</p>
@@ -45,6 +46,49 @@ function Banner() {
                         <div className='md:w-1/2 w-full'>
                             <div className='flex md:!justify-end justify-center'>
                                 <img src={myimg} alt="" className=' flex justify-center border-[#0488CC] border-r-8 border-b-8 xs:h-[400px] h-full max-w-full' data-aos="zoom-in" />
+                               
+                            </div>
+                        </div>
+                    </div> */}
+                <div className="video-container relative lg:h-screen h-[460px] w-full overflow-hidden">
+                    <video
+                        className="background-video w-full h-screen"
+                        src={bgVideo}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                    />
+                  
+                    <div className="container max-w-6xl mx-auto xl:px-16 px-8 h-full">
+                        <div className="video-overlay">
+                            <div className='text-center absolute md:top-[20%] top-[13%]'>
+                                <p className='text-xl text-white text-center font-bold mb-5'>HELLO</p>
+                                <h2 className='lg:text-3xl md:text-2xl text-xl font-bold text-white text-center mb-3 flex gap-4 justify-center'> I Am <span className='text-[#0488CC] md:text-[45px] sm:text-[30px] text-xl md:ml-3 ml-0 flex gap-2 justify-center' data-aos="zoom-in">
+                                   
+                                    Shivani Rathore</span>
+                                </h2>
+                                <h1 className="lg:text-[40px] md:text-[28px] text-xl font-bold md:mb-6 mb-0 text-white " data-aos="fade-up">
+                                    <span className='text-[#0488CC] md:text-[30px] text-[22px] md:ml-3 ml-0 font-bold'> Creative </span>
+                                    Web Designer
+                                </h1>
+                                <p class="text-gray-300 md:my-10 my-6 text-center xs:text-sm text-xs md:max-w-[66%] w-full mx-auto">
+                                  I create modern, responsive, and user-friendly websites with clean design and smooth user experience. I enjoy turning ideas into beautiful, functional digital interfaces using HTML, CSS, Tailwind CSS, and front-end frameworks.
+                                </p>
+                                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                                    <Link
+                                        to="projects"
+                                        className="bg-[#0488CC] hover:bg-[#06A0F3] text-white font-medium py-2 px-6 rounded-full shadow-md transition duration-300 cursor-pointer"
+                                    >
+                                        View My Work
+                                    </Link>
+                                    <Link
+                                        to="contact"
+                                        className="border border-[#0488CC] text-[#0488CC] hover:bg-[#0488CC] hover:text-white font-medium py-2 px-6 rounded-full transition duration-300 cursor-pointer"
+                                    >
+                                        Contact Me
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
