@@ -63,13 +63,13 @@ function Banner() {
                     <div className="container max-w-6xl mx-auto xl:px-16 px-8 h-full">
                         <div className="video-overlay">
                             <div className='text-center absolute md:top-[20%] top-[13%]'>
-                                <p className='text-xl text-white text-center font-bold mb-5'>HELLO</p>
-                                <h2 className='lg:text-3xl md:text-2xl text-xl font-bold text-white text-center mb-3 flex gap-4 justify-center'> I Am <span className='text-[#0488CC] md:text-[45px] sm:text-[30px] text-xl md:ml-3 ml-0 flex gap-2 justify-center' data-aos="zoom-in">
+                                <p className='text-xl text-white text-center font-bold lg:mb-5 mb-0'>HELLO</p>
+                                <h2 className='lg:text-3xl text-2xl font-bold text-white text-center md:p-2 p-0 lg:mb-3 mb-2 flex md:gap-4 gap-2 justify-center items-center'> I Am <span className='heading-name md:p-2 p-0 md:text-[45px] sm:text-[30px] text-xl md:ml-3 ml-0 flex gap-2 justify-center' data-aos="zoom-in">
                                    
                                     Shivani Rathore</span>
                                 </h2>
                                 <h1 className="lg:text-[40px] md:text-[28px] text-xl font-bold md:mb-6 mb-0 text-white " data-aos="fade-up">
-                                    <span className='text-[#0488CC] md:text-[30px] text-[22px] md:ml-3 ml-0 font-bold'> Creative </span>
+                                    <span className='text-[#0488CC] md:text-[30px] text-[22px] md:ml-3 ml-0 font-bold heading-name'> Creative </span>
                                     Web Designer
                                 </h1>
                                 <p class="text-gray-300 md:my-10 my-6 text-center xs:text-sm text-xs md:max-w-[66%] w-full mx-auto">
@@ -77,14 +77,14 @@ function Banner() {
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                     <Link
-                                        to="projects"
-                                        className="bg-[#0488CC] hover:bg-[#06A0F3] text-white font-medium py-2 px-6 rounded-full shadow-md transition duration-300 cursor-pointer"
+                                        to="projects"  
+                                        className=" bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:shadow-[0_0_18px_rgba(30,144,255,0.8)]  text-white font-medium py-2 px-6 rounded-full shadow-md transition duration-300 cursor-pointer"
                                     >
                                         View My Work
                                     </Link>
                                     <Link
                                         to="contact"
-                                        className="border border-[#0488CC] text-[#0488CC] hover:bg-[#0488CC] hover:text-white font-medium py-2 px-6 rounded-full transition duration-300 cursor-pointer"
+                                        className=" bg-white text-[#0488CC] hover:bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:text-white font-medium py-2 px-6 rounded-full transition duration-300 cursor-pointer"
                                     >
                                         Contact Me
                                     </Link>

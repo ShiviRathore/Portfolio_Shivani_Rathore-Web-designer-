@@ -3,7 +3,7 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-body{
+body {
   overflow-x: hidden;
   font-family: "Inter", sans-serif;
 }
@@ -26,4 +26,18 @@ body{
   justify-content: center;
   align-items: center;
 }
- 
+
+.heading-name {
+  background: linear-gradient(90deg, #1e90ff, #64e7ff, #1e90ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  /* color: #1e90ff; */
+}  
+.video-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);  /* 35% dark overlay */
+  backdrop-filter: blur(1px);      /* optional: makes it soft */
+}

@@ -37,12 +37,12 @@ function AboutUs() {
                             </div>
 
                             <div className="mt-6 flex md:gap-4 gap-2">
-                                <a className="bg-[#0488CC] md:px-6 px-4 py-2 rounded-full text-white text-sm font-bold hover:bg-white hover:text-sky-500">
+                                <a className="bg-[#0488CC] bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:shadow-[0_0_18px_rgba(30,144,255,0.8)] md:px-6 px-4 py-2 rounded-full text-white text-sm font-bold cursor-pointer">
                                     Hire me  
                                 </a>
                                 <a href={resume}
                                 download="resume-shivani-rathore.pdf"
-                                 className="bg-white text-[#0488CC] border border-white md:px-6 px-4 py-2 rounded-full text-sm font-bold hover:bg-sky-500 hover:text-white border-none cursor-pointer">
+                                 className="bg-white text-[#0488CC] border border-white md:px-6 px-4 py-2 rounded-full text-sm font-bold hover:bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:text-white border-none cursor-pointer">
                                     Download CV
                                 </a>
                             </div>

@@ -13,7 +13,7 @@ function ContactMe() {
           <h2 class="text-3xl md:text-4xl font-bold text-white text-center md:mb-12 mb-6" data-aos="flip-right">
             Contact <span class="text-sky-500">Me</span>
           </h2>
-          <div class="grid md:grid-cols-2 lg:gap-10 gap-4">
+          <div class="grid md:grid-cols-2 lg:gap-10 gap-4 justify-center">
             <div class="bg-[#102a3b] p-6 rounded-lg shadow-xl">
               <form action="#" class="space-y-4">
                 <div class="grid grid-cols-2 gap-4">
@@ -25,7 +25,7 @@ function ContactMe() {
                   <input type="text" placeholder="Address" class="w-full px-4 md:py-3 py-2 text-sm bg-transparent border border-sky-500 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-sky-500" />
                 </div>
                 <textarea rows="5" placeholder="Message" class="w-full px-4 md:py-3 py-2 text-sm bg-transparent border border-sky-500 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-sky-500"></textarea>
-                <button type="submit" class="w-full bg-sky-500 hover:bg-sky-600 text-white md:py-3 py-2 text-sm rounded-md font-semibold transition duration-300">
+                <button type="submit" class="w-full hover:bg-white bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:shadow-[0_0_18px_rgba(30,144,255,0.8)] text-white md:py-3 py-2 text-sm rounded-md font-semibold transition duration-300">
                   Submit
                 </button>
               </form>

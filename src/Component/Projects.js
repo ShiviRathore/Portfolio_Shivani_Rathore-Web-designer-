@@ -16,7 +16,7 @@ function Projects() {
                 <div className="absolute inset-0 bg-[#000000d9] opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-center items-center text-center text-white p-4">
                     <h3 className="text-2xl font-bold mb-2">AIM Project</h3>
                     <p className="text-lg mb-4">React js, Bootstrap</p> 
-                  <NavLink to="http://65.2.9.94:3000/login?organizationName=" className="px-4 py-2 bg-[#0488CC] rounded-lg font-semibold hover:bg-[#026b9c] transition text-sm">View Project </NavLink>
+                  <NavLink to="http://65.2.9.94:3000/login?organizationName=" className="px-4 py-2 bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:shadow-[0_0_18px_rgba(30,144,255,0.8)] rounded-lg font-semibold hover:bg-[#026b9c] transition text-sm">View Project </NavLink>
                   </div>
               </div>            
               <div class="relative group overflow-hidden border-4 border-[#0488CC] rounded-xl p-2 hover:scale-105 transition-transform duration-300">
@@ -24,7 +24,7 @@ function Projects() {
                   <div className="absolute inset-0 bg-[#000000d9] opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-center items-center text-center text-white p-4">
                     <h3 className="text-2xl font-bold mb-2">FRS Project</h3>
                     <p className="text-lg mb-4">HTML, Tailwind CSS</p>
-                    <NavLink to="https://surveillance.bestpeers.com/admin_users/sign_in" className="px-4 py-2 bg-[#0488CC] rounded-lg font-semibold hover:bg-[#026b9c] transition  text-sm">View Project </NavLink>
+                    <NavLink to="https://surveillance.bestpeers.com/admin_users/sign_in" className="px-4 py-2 bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:shadow-[0_0_18px_rgba(30,144,255,0.8)] rounded-lg font-semibold hover:bg-[#026b9c] transition  text-sm">View Project </NavLink>
                   </div>
               </div>
                 <div className='relative group overflow-hidden border-4 border-[#0488CC] rounded-xl p-2 hover:scale-105 transition-transform duration-300'>
@@ -32,7 +32,7 @@ function Projects() {
                 <div className="absolute inset-0 bg-[#000000d9] opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-center items-center text-center text-white p-4">
                     <h3 className="text-2xl font-bold mb-2">QBIT Project</h3>
                     <p className="text-lg mb-4">React js, Tailwind CSS</p> 
-                    <NavLink to="https://qbit42.ai/" className="px-4 py-2 bg-[#0488CC] rounded-lg font-semibold hover:bg-[#026b9c] transition  text-sm">View Project </NavLink>
+                    <NavLink to="https://qbit42.ai/" className="px-4 py-2 hover:bg-[#026b9c] bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:shadow-[0_0_18px_rgba(30,144,255,0.8)] rounded-lg font-semibold  transition  text-smbg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)]">View Project </NavLink>
                   </div>
               </div> 
                 <div className='relative group overflow-hidden border-4 border-[#0488CC] rounded-xl p-2 hover:scale-105 transition-transform duration-300'>
@@ -40,7 +40,7 @@ function Projects() {
                 <div className="absolute inset-0 bg-[#000000d9] opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-center items-center text-center text-white p-4">
                     <h3 className="text-2xl font-bold mb-2">TOURYSTA Project</h3>
                     <p className="text-lg mb-4">React js, Bootstrap</p>
-                  <NavLink to="https://tourysta.com/" className="px-4 py-2 bg-[#0488CC] rounded-lg font-semibold hover:bg-[#026b9c] transition text-sm">View Project </NavLink>
+                  <NavLink to="https://tourysta.com/" className="px-4 py-2 bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:shadow-[0_0_18px_rgba(30,144,255,0.8)] rounded-lg font-semibold transition text-sm">View Project </NavLink>
                   </div>
               </div>
             </div>
