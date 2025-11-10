@@ -1,5 +1,4 @@
-import React from 'react';
-import { PenTool, Code, Smartphone, Palette, Monitor, Wrench } from "lucide-react";
+import React from "react"
 
 function Service() {
 
