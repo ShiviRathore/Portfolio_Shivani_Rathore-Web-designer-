@@ -63,7 +63,7 @@ function Banner() {
                     <div className="container max-w-6xl mx-auto xl:px-16 px-8 h-full">
                         <div className="video-overlay">
                             <div className='text-center absolute md:top-[20%] top-[13%]'>
-                                <p className='text-xl text-white text-center font-bold lg:mb-5 mb-0'>HELLO</p>
+                                <p className='sm:text-xl text-base text-white text-center font-bold lg:mb-5 mb-0'>HELLO</p>
                                 <h2 className='lg:text-3xl text-2xl font-bold text-white text-center md:p-2 p-0 lg:mb-3 mb-2 flex md:gap-4 gap-2 justify-center items-center'> I Am <span className='heading-name md:p-2 p-0 md:text-[45px] sm:text-[30px] text-xl md:ml-3 ml-0 flex gap-2 justify-center' data-aos="zoom-in">
                                    
                                     Shivani Rathore</span>
