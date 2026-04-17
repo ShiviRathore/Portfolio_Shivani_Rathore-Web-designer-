@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import { FaMessage } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+
 function ContactMe() {
+    const [showModal, setShowModal] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault(); // prevent page reload
+    setShowModal(true); // open modal
+  };
+
   return (
     <div>
       <section id="contact" class="bg-[#0f2537] lg:py-[90px] py-[40px]">
@@ -15,17 +23,17 @@ function ContactMe() {
           </h2>
           <div class="grid md:grid-cols-2 lg:gap-10 gap-4 justify-center">
             <div class="bg-[#102a3b] p-6 rounded-lg shadow-xl">
-              <form action="#" class="space-y-4">
+              <form action="#" class="space-y-4" onSubmit={handleSubmit}>
                 <div class="grid grid-cols-2 gap-4">
-                  <input type="text" placeholder="Full Name" class="w-full px-4 md:py-3 py-2 text-sm bg-transparent border border-sky-500 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-sky-500" />
-                  <input type="email" placeholder="Email" class="w-full px-4 md:py-3 py-2 text-sm bg-transparent border border-sky-500 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-sky-500" />
+                  <input type="text" placeholder="Full Name" class="w-full px-4 md:py-3 py-2 text-sm bg-transparent border border-sky-500 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-sky-500" required />
+                  <input type="email" placeholder="Email" class="w-full px-4 md:py-3 py-2 text-sm bg-transparent border border-sky-500 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-sky-500" required/>
                 </div>
                 <div class="grid grid-cols-2 gap-4">
-                  <input type="text" placeholder="Phone Number" class="w-full px-4 md:py-3 py-2 text-sm bg-transparent border border-sky-500 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-sky-500" />
-                  <input type="text" placeholder="Address" class="w-full px-4 md:py-3 py-2 text-sm bg-transparent border border-sky-500 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-sky-500" />
+                  <input type="text" placeholder="Phone Number" class="w-full px-4 md:py-3 py-2 text-sm bg-transparent border border-sky-500 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-sky-500"  required/>
+                  <input type="text" placeholder="Address" class="w-full px-4 md:py-3 py-2 text-sm bg-transparent border border-sky-500 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-sky-500" required/>
                 </div>
-                <textarea rows="5" placeholder="Message" class="w-full px-4 md:py-3 py-2 text-sm bg-transparent border border-sky-500 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-sky-500"></textarea>
-                <button type="submit" class="w-full hover:bg-white bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:shadow-[0_0_18px_rgba(30,144,255,0.8)] text-white md:py-3 py-2 text-sm rounded-md font-semibold transition duration-300">
+                <textarea rows="5" placeholder="Message" class="w-full px-4 md:py-3 py-2 text-sm bg-transparent border border-sky-500 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-sky-500" required></textarea>
+                <button type="submit" class="w-full hover:bg-white bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:shadow-[0_0_18px_rgba(30,144,255,0.8)] text-white md:py-3 py-2 text-sm rounded-md font-semibold transition duration-300" required>
                   Submit
                 </button>
               </form>
@@ -91,6 +99,56 @@ function ContactMe() {
           </div>
         </div>
       </section>
+      {showModal && (
+  <div className="fixed inset-0 flex items-center justify-center bg-black/60 backdrop-blur-sm z-50">
+
+    {/* Modal Box */}
+    <div className="bg-[#102a3b] w-[90%] max-w-[600px] rounded-2xl shadow-3xl p-8 text-center relative animate-[fadeIn_0.3s_ease-in-out]">
+
+      {/* Close Icon */}
+      <button
+        onClick={() => setShowModal(false)}
+        className="absolute top-3 right-3 text-gray-400 hover:text-red-500 text-xl"
+      >
+        ✕
+      </button>
+
+      {/* Success Icon */}
+      <div className="flex justify-center mb-4">
+        <div className="w-16 h-16 flex items-center justify-center rounded-full bg-green-100 mb-6">
+          <svg
+            className="w-8 h-8 text-green-600"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="3"
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+      </div>
+
+      {/* Heading */}
+      <h2 className="text-2xl font-bold text-white mb-4">
+        Message Sent <span className='text-sky-500'> Successfully </span> 🎉
+      </h2>
+
+      {/* Description */}
+      <p className="text-white mb-8 text-sm">
+        Thank you for reaching out. I will get back to you as soon as possible.
+      </p>
+
+      {/* Button */}
+      <button
+        onClick={() => setShowModal(false)}
+        className="w-full hover:bg-white bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:shadow-[0_0_18px_rgba(30,144,255,0.8)] text-white md:py-3 py-2 text-sm rounded-md font-semibold transition duration-300"
+      >
+        Close
+      </button>
+
+    </div>
+  </div>
+)}
 
     </div>
   )

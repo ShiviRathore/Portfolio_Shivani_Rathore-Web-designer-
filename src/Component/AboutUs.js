@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import resume from "../pdf/resume-shivani-rathore.pdf"
+import resume from "../pdf/shivani-resume-final.pdf"
 import myimg from "../images/my-img.png";
 
 function AboutUs() {
