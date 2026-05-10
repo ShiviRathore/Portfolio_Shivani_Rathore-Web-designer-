@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import resume from "../pdf/Shivani_Resume_Final.pdf";
 import myimg from "../images/my-img.png";
 
@@ -41,7 +40,7 @@ function AboutUs() {
                             </div>
 
                             <div className="mt-6 flex md:gap-4 gap-2">
-                                <a className="bg-[#0488CC] bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:shadow-[0_0_18px_rgba(30,144,255,0.8)] md:px-6 px-4 py-2 rounded-full text-white text-sm font-bold cursor-pointer">
+                                <a href="" className="bg-[#0488CC] bg-[linear-gradient(27deg,rgba(30,144,255,1)_39%,rgba(82,208,255,1)_55%,rgba(30,144,255,1)_72%)] hover:shadow-[0_0_18px_rgba(30,144,255,0.8)] md:px-6 px-4 py-2 rounded-full text-white text-sm font-bold cursor-pointer">
                                     Hire me  
                                 </a>
                                 <a href={resume}
